@@ -55,7 +55,9 @@ body{
     /* background-color: var(--deep-noir); */
     background: url(./assets/bg_solid.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     /* margin: 7px; */
 
     font-family: 'Courier New', Courier, monospace;
