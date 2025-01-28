@@ -1,0 +1,150 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* CSS HEX */
+/* --wenge: #5b4b49ff; */
+/* --midnight-green: #0b5563ff; */
+/* --cambridge-blue: #92b4a7ff; */
+/* --apricot: #ffcaafff; */
+/* --tea-rose-red: #eac8caff; */
+
+
+/* 
+body {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Hides scrollbar */
+ /*}*/
+
+
+
+ /* color palette
+ *****************/
+:root {
+    --deep-noir: #1B1B1B;
+    --cigarette-ash: #A9A9A9;
+    --foggy-streetlight: #E3C16F;
+    --bloodstain-red: #C0413B;
+    --typewriter-cream: #F5E9DA;
+}
+
+
+
+/* font-family class 
+**********************/
+ .special-elite-regular{
+    font-family: "Special Elite", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
+/* Styling
+***********/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: var(--deep-noir); */
+    background: url(./assets/bg_solid.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: 7px; */
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "special Elite", serif;
+    color: var(--bloodstain-red);
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--cigarette-ash);
+}
+
+b{
+    color: var(--bloodstain-red);
+}
+
+header{
+    background-color: var(--deep-noir);
+    color: var(--cigarette-ash);
+    /* margin: 0px; */
+    width: auto;
+}
+
+
+.main{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 730px;
+    color: var(--cigarette-ash);
+    /* background-color: var(--deep-noir); */
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+
+}
+
+
+.main div{
+    /* width: 500px; */
+
+    padding: 20px;
+
+    border-width: 1px;
+    border-color: var(--cigarette-ash);
+    border-style: solid;
+    border-radius: 4px;
+
+    margin: 20px;
+
+    background-color: var(--deep-noir);
+}
+
+.main div img{
+display: inline-block;
+}
+
+.main div p{
+    /* display: inline-block; */
+    /* width: 50%; */
+    
+}
+
+/* #outer{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: 50%;
+    border: 10px solid black;
+}
+
+
+#inner{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#inner2{
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    margin-top: 50%; /*margin with siblings and the border of the parent = 50% of the parent width. */
+/*    margin-left: 50%;
+}
+
+#inner3{
+    background-color: brown;
+} */
