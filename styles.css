@@ -29,6 +29,9 @@ body {
     --foggy-streetlight: #E3C16F;
     --bloodstain-red: #C0413B;
     --typewriter-cream: #F5E9DA;
+
+    /* my colors */
+    --midnight-blue: #132a3b;
 }
 
 
@@ -48,25 +51,28 @@ body {
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 body{
-    /* background-color: var(--deep-noir); */
-    background: url(./assets/bg_solid.jpg);
+    background-color: var(--deep-noir);
+    /* background: url(./assets/bg_solid.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* margin: 7px; */
 
     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
 
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: "special Elite", serif;
     color: var(--bloodstain-red);
+    color: var(--cigarette-ash);
 }
 
 
@@ -79,13 +85,35 @@ b{
     color: var(--bloodstain-red);
 }
 
+
 header{
     background-color: var(--deep-noir);
+    background-color: var(--cigarette-ash);
+    background-color: var(--bloodstain-red);
     color: var(--cigarette-ash);
+    color: var(--deep-noir);
     /* margin: 0px; */
     width: auto;
+    /* height: 4rem; */
+
+    font-family: "special Elite", serif;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
+.header-center{
+    width: 90vw;
+    margin: auto auto;
+    /* margin-top: 10px; */
+    max-width: 730px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    font-size: 4rem;
+}
 
 .main{
     width: 90vw;
@@ -98,9 +126,25 @@ header{
 
 }
 
+.section-title{
+    border-width:0px;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
-.main div{
+.section-separator{
+    border: none;
+    height: 5px;
+    width: 60px;
+    background-color: var(--bloodstain-red);
+    padding: 0;
+    margin: 0;
+}
+
+.main .card{
     /* width: 500px; */
+    min-width: 391px;
 
     padding: 20px;
 
@@ -109,10 +153,13 @@ header{
     border-style: solid;
     border-radius: 4px;
 
-    margin: 20px;
+    margin: 20px auto;
 
     background-color: var(--deep-noir);
+    /* background-color: #1e2933; */
+    /* background: linear-gradient(to top ,var(--midnight-blue), var(--cigarette-ash)); */
 }
+
 
 .main div img{
 display: inline-block;
