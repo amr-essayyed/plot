@@ -77,8 +77,10 @@ h1, h2, h3, h4, h5, h6{
 
 
 a{
+    border-radius: 4px;
     text-decoration: none;
     color: var(--cigarette-ash);
+    padding: 4px;
 }
 
 b{
@@ -97,8 +99,6 @@ header{
     /* height: 4rem; */
 
     font-family: "special Elite", serif;
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 
 .header-center{
@@ -106,8 +106,8 @@ header{
     margin: auto auto;
     /* margin-top: 10px; */
     max-width: 730px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     
 }
 

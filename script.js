@@ -16,11 +16,11 @@ function main(){
 
         if(e.type == 'mouseover'){
 
-            this.style.backgroundColor ='#4d4b4b'
+            this.style.backgroundColor ='#C0413B'
         }
         else if(e.type == 'mouseout'){
 
-            this.style.backgroundColor = '#1e2933'
+            this.style.backgroundColor = '#1B1B1B'
         }
 
     }
